@@ -1,0 +1,31 @@
+{
+  "name": "angelfood-cake",
+  "version": "1.0.0",
+  "description": "PDF transformer for angelfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruth-duda/angelfood-cake.git"
+  },
+  "keywords": [
+    "angel",
+    "angelfood",
+    "cake",
+    "anglefood-cake",
+    "lunch",
+    "bbc",
+    "pacifc"
+  ],
+  "author": "Ruth Duda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruth-duda/angelfood-cake/issues"
+  },
+  "homepage": "https://github.com/ruth-duda/angelfood-cake#readme",
+  "dependencies": {
+    "pdf2json": "^1.1.7"
+  }
+}
