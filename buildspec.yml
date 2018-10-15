@@ -4,3 +4,10 @@ phases:
   install:
     commands:
       - npm install
+      - aws cloudformation package --template-file template.yaml --s3-bucket angelfood-build-bucket 
+                                   --output-template-file output-template.yaml
+artifacts:
+  type: zip
+  files:
+    - template.yaml
+    - output-template.yaml
